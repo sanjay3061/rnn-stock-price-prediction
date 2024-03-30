@@ -12,15 +12,15 @@ Dataset: Historical stock price data including date, open, high, low, close pric
 
 Steps:
 
-Preprocessing: Clean, normalize, and split data into training/testing sets.
+1.Preprocessing: Clean, normalize, and split data into training/testing sets.
 
-Model Architecture: Design RNN architecture (e.g., LSTM) and configure layers.
+2.Model Architecture: Design RNN architecture (e.g., LSTM) and configure layers.
 
-Training: Train model on training data using backpropagation through time.
+3.Training: Train model on training data using backpropagation through time.
 
-Evaluation: Assess model performance using metrics like Mean Squared Error on testing data.
+4.Evaluation: Assess model performance using metrics like Mean Squared Error on testing data.
 
-Prediction: Utilize trained model to forecast future stock prices.
+5.Prediction: Utilize trained model to forecast future stock prices.
 
 Deployment: Deploy model for real-time prediction, periodically updating with new data.
 
