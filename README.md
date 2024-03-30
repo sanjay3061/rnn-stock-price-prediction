@@ -6,6 +6,24 @@ To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
 
+Problem: Develop an RNN-based model to predict stock prices using historical data.
+
+Dataset: Historical stock price data including date, open, high, low, close prices, volume, and adjusted close.
+
+Steps:
+
+Preprocessing: Clean, normalize, and split data into training/testing sets.
+
+Model Architecture: Design RNN architecture (e.g., LSTM) and configure layers.
+
+Training: Train model on training data using backpropagation through time.
+
+Evaluation: Assess model performance using metrics like Mean Squared Error on testing data.
+
+Prediction: Utilize trained model to forecast future stock prices.
+
+Deployment: Deploy model for real-time prediction, periodically updating with new data.
+
 
 ## Design Steps
 ### Step 1:
