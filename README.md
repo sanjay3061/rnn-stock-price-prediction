@@ -6,35 +6,33 @@ To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
 
+Develop a Recurrent Neural Network (RNN) model to predict the stock prices of Google. The goal is to train the model using historical stock price data and then evaluate its performance on a separate test dataset. The prediction accuracy of the model will be assessed by comparing its output with the true stock prices from the test dataset.
 
+Dataset:
+The dataset consists of two CSV files:
 
-Develop an RNN-based stock price prediction model to forecast future stock prices accurately using historical stock price data.
+* trainset.csv: This file contains historical stock price data of Google, which will be used for training the RNN model. It includes features such as the opening price of the stock.
 
-Dataset: The dataset consists of two CSV files:
-
-trainset.csv: This file contains historical stock price data of Google, which will be used for training the RNN model. It includes features such as the opening price of the stock.
-
-testset.csv: This file contains additional historical stock price data of Google, which will be used for testing the trained RNN model. Similarly, it includes features such as the opening price of the stock.
+*   testset.csv: This file contains additional historical stock price data of Google, which will be used for testing the trained RNN model. Similarly, it includes features such as the opening price of the stock.
 
 Both datasets contain multiple columns, but for this task, only the opening price of the stock (referred to as 'Open') will be used as the feature for predicting future stock prices.
 
 The objective is to build a model that can effectively learn from the patterns in the training data to make accurate predictions on the test data.
 
-
 ## Design Steps
+
 ### Step 1:
-Preprocessing: Clean, normalize, and split data into training/testing sets.
+Read and preprocess training data, including scaling and sequence creation.
+
 ### Step 2:
-Model Architecture: Design RNN architecture (e.g., LSTM) and configure layers.
+Initialize a Sequential model and add SimpleRNN and Dense layers.
 
 ### Step 3:
-Training: Train model on training data using backpropagation through time.
-
+Compile the model with Adam optimizer and mean squared error loss.
 ### Step 4:
-Evaluation: Assess model performance using metrics like Mean Squared Error on testing data.
-
+Train the model on the prepared training data.
 ### Step 5:
-Prediction: Utilize trained model to forecast future stock prices.
+Preprocess test data, predict using the trained model, and visualize the results.
 
 
 ## Program
