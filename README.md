@@ -6,13 +6,19 @@ To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
 
-Problem Statement:
+
 
 Develop an RNN-based stock price prediction model to forecast future stock prices accurately using historical stock price data.
 
-Dataset:
+Dataset: The dataset consists of two CSV files:
 
-The dataset consists of historical stock price data, including features such as date, open price, high price, low price, close price, volume, and adjusted close. The dataset is preprocessed to handle missing values, outliers, and anomalies.
+trainset.csv: This file contains historical stock price data of Google, which will be used for training the RNN model. It includes features such as the opening price of the stock.
+
+testset.csv: This file contains additional historical stock price data of Google, which will be used for testing the trained RNN model. Similarly, it includes features such as the opening price of the stock.
+
+Both datasets contain multiple columns, but for this task, only the opening price of the stock (referred to as 'Open') will be used as the feature for predicting future stock prices.
+
+The objective is to build a model that can effectively learn from the patterns in the training data to make accurate predictions on the test data.
 
 
 ## Design Steps
