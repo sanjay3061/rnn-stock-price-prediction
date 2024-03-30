@@ -6,36 +6,30 @@ To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
 
-Problem: Develop an RNN-based model to predict stock prices using historical data.
+Problem Statement:
 
-Dataset: Historical stock price data including date, open, high, low, close prices, volume, and adjusted close.
+Develop an RNN-based stock price prediction model to forecast future stock prices accurately using historical stock price data.
 
-Steps:
+Dataset:
 
-1.Preprocessing: Clean, normalize, and split data into training/testing sets.
-
-2.Model Architecture: Design RNN architecture (e.g., LSTM) and configure layers.
-
-3.Training: Train model on training data using backpropagation through time.
-
-4.Evaluation: Assess model performance using metrics like Mean Squared Error on testing data.
-
-5.Prediction: Utilize trained model to forecast future stock prices.
-
-Deployment: Deploy model for real-time prediction, periodically updating with new data.
+The dataset consists of historical stock price data, including features such as date, open price, high price, low price, close price, volume, and adjusted close. The dataset is preprocessed to handle missing values, outliers, and anomalies.
 
 
 ## Design Steps
 ### Step 1:
-Prepare training data by scaling and creating sequences.
+Preprocessing: Clean, normalize, and split data into training/testing sets.
 ### Step 2:
-Add SimpleRNN and Dense layers after initializing a sequential model.
+Model Architecture: Design RNN architecture (e.g., LSTM) and configure layers.
+
 ### Step 3:
-Use the Adam optimizer and mean squared error loss to compile the model.
+Training: Train model on training data using backpropagation through time.
+
 ### Step 4:
-Use the ready-made training data to train the model.
+Evaluation: Assess model performance using metrics like Mean Squared Error on testing data.
+
 ### Step 5:
-Use the trained model to make predictions, preprocess test data, and display the outcomes.
+Prediction: Utilize trained model to forecast future stock prices.
+
 
 ## Program
 #### Name:Sanjay.R
